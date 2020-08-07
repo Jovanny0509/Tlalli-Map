@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap');
+/*Contenido de la página*/
+body{
+	background-image: url("../img/tzompantli2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+html {
+    height: 100%;
+}
+
+h2{
+	font-family: 'Ubuntu', sans-serif;
+	color: #fff;
+	font-weight: 800;
+	letter-spacing: 0.125em;
+	line-height: 1em;
+	margin: 0.25em 0 0.25em 0;
+	text-transform: uppercase;
+	font-size: 40px;
+}
+
+.modal-content{
+	background-color: #102A63;
+	opacity: 0.89;
+	border-radius: 15px;
+}
+
+.btn-link{
+	color:white;
+}
+
+.modal-heading{
+	text-align: center;
+}
+
+.modal-heading h2{
+	color:#ffffff;
+}
+
+button#ingresar, button#{
+	height: 50px;
+}
+
+/*Modal para registrar usuario*/
+h5,label{
+	color: white;
+}
+
+input#fechaNac{
+	width:50%;
+}

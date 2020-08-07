@@ -1,0 +1,27 @@
+ .carousel {
+    width:50px;
+    height:50px;
+    display:inherit;
+    margin: 15px auto;
+    padding: 23px;
+    margin-top: 100px;
+  }
+
+  .carousel img {
+    display: hidden; /* hide images until carousel prepares them */
+    cursor: pointer; /* not needed if you wrap carousel items in links */
+  }
+
+  @media screen and (max-width: 480px) {
+
+    .carousel {
+      width:25px;
+      height:25px;
+      display:inherit;
+      margin: 15px auto;
+      padding: 23px;
+      margin-top: 100px;
+    }
+
+
+  }
